@@ -1,0 +1,3 @@
+Advanced attributes:
+* distributed computing 
+# Decoding: it is defined as Syncro(blocked),asynro (unblocked technology)  and auto(a/c to environment)

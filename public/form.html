@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            border-radius: 4px;
+            font-style: italic;
+            background-color: beige;
+        }
+        dd{
+            width: 200px;
+            border-right-color: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" novalidate >
+<dl>
+      <dd><label> Name:<input type=" text" name="Name" required ></label></dd> 
+        
+        <dd>password<input type="password" name="password" required></dd>
+       <dd> resume<input type="file" accept="" multiple ></dd>
+       
+       <dt> color</dt>
+       <dd>
+        <input type="color" name="color" default="green">
+       </dd>
+<br>
+<button>register</button>
+Gender: <input type="radio" name="gender"> female
+        <input type="radio" name="gender">male
+<dd> male</dd>
+
+</dl>
+    </form>
+</body>
+</html>
